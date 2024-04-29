@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "start": "node index.js",
     "dev": "next dev",
     "build:dev": "env-cmd -f .env.development next build",
     "build:production": "env-cmd -f .env.production next build",
